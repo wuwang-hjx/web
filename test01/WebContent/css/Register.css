@@ -1,0 +1,17 @@
+body{
+	  height: 100%;
+	  width: 100%;
+	  background: url(../cssimage/2.png) no-repeat;
+	  background-size: cover;
+	  position: absolute;
+	  overflow: hidden;
+	
+}
+#body{
+	margin: 200px auto;
+	width: 300px;
+}
+input{
+	height: 25px;
+	width: 200px;
+}
