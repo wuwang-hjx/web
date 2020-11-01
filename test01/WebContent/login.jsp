@@ -3,7 +3,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	
 <meta charset="UTF-8">
 <title>用户登录入口</title>
 <script type="text/javascript" src="js/jquery-3.5.1.min.js"></script>

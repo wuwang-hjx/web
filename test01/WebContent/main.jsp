@@ -23,7 +23,7 @@
 			<div id="emun">
 				<ol>
 					<li><a href="download.jsp">资料下载</a></li>
-					<li><a href="#">学科建设</a></li>
+					<li><a href="Management.jsp">用户管理</a></li>
 					<li><a href="#">师资队伍</a></li>
 					<li><a href="#">组织机构</a></li>
 					<li><a href="#">学校概况</a></li>
