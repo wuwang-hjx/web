@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <!-- <link rel="stylesheet" href="zTree_v3/css/metroStyle/metroStyle.css"/> -->
+    <!-- <link rel="stylesheet" href="zTree_v3/css/awesomeStyle/awesome.css"> -->
+    <link rel="stylesheet" href="zTree_v3/css/zTreeStyle/zTreeStyle.css">
+    <script type="text/javascript" src="zTree_v3/js/jquery.ztree.all.min.js"></script>
+    <script type="text/javascript" src="js/ztree.js"></script>
+    <style>
+        p {
+            margin: 0px;
+            font-style: italic;
+        }
+        
+        .nav_horizon {
+            background-color: lightgray;
+            width: 100%;
+            height: 50px;
+            top: 0px;
+            padding: 0;
+        }
+        
+        .nav_horizon p {
+            margin: auto;
+            padding: 12px;
+        }
+        
+        .nav_box {
+            width: 500px;
+            overflow: hidden;
+            margin: 5px 0 0 0;
+        }
+        
+        .ztree {
+            background-color: white;
+        }
+        
+        .nav_view {
+            background-attachment: fixed;
+            background-color: lightskyblue;
+            width: 500px;
+            height: auto;
+            display: table-cell;
+        }
+        
+        .nav_view div {
+            margin-left: 48px;
+        }
+        
+        .nav_view_input {
+            width: 250px;
+        }
+        
+        .nav_tree {
+            width: 240px;
+            height: auto;
+            display: table-cell;
+        }
+        
+        .save {
+            display: block;
+            margin-top: 20px;
+        }
+        
+        .bt_nav {
+            background-attachment: fixed;
+            background-repeat: no-repeat;
+            background-image: url(images/nav.png);
+            background-size: auto;
+            height: 50px;
+            width: 50px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="nav_horizon">
+        <p style="font-style: normal;">商品目录管理</p>
+    </nav>
+    <div class="nav_box" style="float: left;">
+        <div class="nav_tree">
+            <ul id="treeDemo" class="ztree"></ul>
+        </div>
+        <div class="nav_view">
+            <div>
+                <p>上级目录</p>
+                <input id="topname" type="text" disabled="disabled" class="nav_view_input">
+                <p>当前目录</p>
+                <input id="nowname" type="text" class="nav_view_input">
+                <br>
+                <button class="save" id="save">保存修改</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
